@@ -59,7 +59,7 @@ Analyze specific users or view overall stats
 
 View stats, message trends, emoji analysis, and word clouds 📊
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 🚀 Built with:
 
 Python 🐍
