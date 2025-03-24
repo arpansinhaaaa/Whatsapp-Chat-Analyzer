@@ -99,7 +99,7 @@ All contributions are welcome! 🎉
 If you liked this project, give it a star ⭐ and follow for updates!
 💬 Have suggestions or found an issue? Open an issue on GitHub!
 
-📧 Contact: your-sinhaarpan7549.com
+📧 Contact: sinhaarpan7549.com
 
 ✅ **Simply copy and paste this into your `README.md` file.**   
 ✅ It’s professional, visually appealing, and user-friendly.  
