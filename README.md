@@ -32,14 +32,10 @@ Will be u[dated later
 git clone https://github.com/yourusername/whatsapp-chat-analyzer.git
 cd whatsapp-chat-analyzer
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 3️⃣ Run the Application
-bash
-Copy
-Edit
+
 streamlit run app.py
 
 ✅ Now, open http://localhost:8501 in your browser!
