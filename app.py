@@ -4,14 +4,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Set the page layout
-st.set_page_config(page_title="WhatsApp Chat Analyzer by Arpan", page_icon=":speech_balloon:")
+st.set_page_config(page_title="WhatsApp Chat Analyzer", page_icon=":speech_balloon:")
 
 st.title(":green[WhatsApp] Chat Analyzer 📊")
-st.title(" By Arpan Sinha")
 st.sidebar.title(":green[Chat] Insights Dashboard 📊")
 
 
-st.sidebar.text("Upload Your Chat Data (Format: DD/MM/YY)")
+st.sidebar.text("Upload Your Chat Data (Format: DD/MM/YY) ONLY")
 uploaded_file = st.sidebar.file_uploader("Choose a txt file", type='txt')
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()

@@ -2,12 +2,3 @@ seaborn
 urlextract
 wordcloud
 emoji
-
-# Developed an interactive chat analysis tool using Python and Streamlit, enabling users to
-# derive meaningful insights from WhatsApp chat logs, including top statistics, message trends,
-# and communication patterns.
-# Implemented advanced data visualization features such as word clouds, heatmaps, and
-# sentiment analysis, enhancing user engagement and providing clear insights into chat activity.
-# Delivered real-time, accessible analysis via a live Streamlit app, offering users a seamless
-# experience for exploring communication patterns across individual and group chats.
-# Technologies Used: Python, Streamlit, Pandas, Matplotlib, Seaborn
