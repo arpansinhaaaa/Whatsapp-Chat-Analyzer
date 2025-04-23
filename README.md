@@ -1,102 +1,121 @@
-# 📊 WhatsApp Chat Analyzer
+# WhatsApp Chat Analyzer🔢📊
 
+### **LIVE LINK:** [https://whatsappchatanalyzerbyarpan.streamlit.app/](https://whatsappchatanalyzerbyarpan.streamlit.app/)
 
+_Note: Please copy the app URL and paste it in a new tab for smooth functioning of the app._
 
-🔍 **Unlock powerful insights from your WhatsApp chats!**  
-Analyze message trends, user activity, word clouds, emoji usage, and much more! 🚀  
+This project offers a comprehensive toolkit for analyzing WhatsApp chat exports, using Python to process chat logs and deliver insightful statistics and visualizations. Key features include an overview of top chat statistics, identification of the most active users, analysis of monthly and daily messaging trends, peak day and month insights, word clouds, a weekly activity heatmap, emoji usage and sentiment analysis. Designed for exploring communication patterns, this tool enables in-depth insights for both individual and group WhatsApp conversations.
 
+_Note: Please download the WhatsApp chat export without media for optimal results._
 
-## 🎯 Features
+## Features
 
-✅ **User-Based Analysis** – Filter messages by user or analyze the entire chat  
-✅ **Message Trends** – Daily, weekly, and monthly activity patterns 📈  
-✅ **Top Participants** – Identify the most active users  
-✅ **Word Cloud** – Discover the most frequently used words ☁️  
-✅ **Emoji Analysis** – Understand the sentiment behind emojis 😀📊  
-✅ **Media & Links Count** – Track shared images, videos, and links 🔗  
-✅ **Heatmaps & Graphs** – Visual analytics for better insights  
+### 📅 First & Last Message Dates
+
+![image](https://github.com/user-attachments/assets/c61dbe16-2332-4abc-8d27-2696a0c74cc5)
+This section displays the date of the first and last messages in the selected chat, giving insight into the duration of the conversation history.
+
+### 👀 Top Statistics
+
+![image](https://github.com/user-attachments/assets/caee7e71-4aaa-4bf2-8627-211e5d6d6a23)
+This section highlights the core statistics of the chat, including:
+
+- Total Messages: Count of all messages sent.
+- Total Words: Total number of words in all messages.
+- Media Shared: Number of media files (images, videos, etc.) shared.
+- Links Shared: Count of shared URLs.
+
+### 👑 Most Active User in Chats
+
+![image](https://github.com/user-attachments/assets/ac9eb37b-9ce3-46a4-b1c6-bac82680cf80)
+Creating a bar graph to display the top 5 most active members, alongside a table showing all group members and their respective percentage contributions to the chat on the right.
+
+### 📅 Monthly Messaging Trends
+
+![image](https://github.com/user-attachments/assets/134f5c5f-47ec-492d-8349-0b5cd608329e)
+This section provides insights into messaging activity over time on a monthly basis. The line graph displays the message count for each month, allowing you to identify peaks and patterns in messaging behavior.
+
+### 📈 Daily Message Trends
+
+![image](https://github.com/user-attachments/assets/1dc6d656-77ee-4a76-89d9-1c034a18a9d3)
+Here, you can view the daily messaging trends, with a line graph plotting the message count for each day. This feature is useful for pinpointing specific days of heightened activity, such as holidays or important events.
+
+### 📊 Chat Activity
+
+![image](https://github.com/user-attachments/assets/65865da0-aaab-46b5-9489-3a5cea97b8b7)
+The Chat Activity section includes two visualizations:
+
+1. **Peak Day of the Week 📅** - A bar graph displays the number of messages sent on each day of the week, helping to identify the days with the highest chat activity.
+2. **Peak Month of the Year 📆** - This bar chart showcases monthly activity levels, indicating the busiest months in terms of chat messages.
+
+### ☁️ Word Cloud
+
+![image](https://github.com/user-attachments/assets/ca484307-5d4c-4948-bd48-2a5d9794f604)
+The Word Cloud feature provides a visual representation of the most frequently used words in the chat. The larger the word, the more often it appears in the messages. This feature is great for understanding dominant topics or themes in the chat.
+
+### 🕒 Weekly Activity Heatmap
+
+![image](https://github.com/user-attachments/assets/1baf98da-72ce-4cec-83ca-0a77dd4d6c23)
+The Weekly Activity Heatmap shows the distribution of messages throughout the week and at different times of the day. It visually represents peak activity times, allowing users to see which days and hours are the most active in the chat.
+
+### 👀 Emoji Analysis
+
+![image](https://github.com/user-attachments/assets/d20b7052-4b2f-4b8a-8f9b-458f035916b1)
+The Emoji Analysis provides insights into emoji usage in the chat, including:
+
+- **Count of Emojis Used 🔢** - Displays a table of emojis and their respective counts, showing the most popular emojis used in the chat.
+- **Emoji vs. Non-Emoji Messages** - A pie chart shows the proportion of messages with and without emojis.
+- **Emoji Sentiment Analysis 😁😐😕** - Sentiment analysis of emojis used in the chat, categorizing them as positive, neutral, or negative.
+
+## Getting Started
+
+To get started with the WhatsApp Chat Analyzer, follow the installation guide below to set up the environment and run the application locally.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- Python 3.7 or later
+- pip (Python package installer)
+
+### Installation Guide
+
+1. **Clone the Repository**
+   Open your terminal and clone the repository using the following command:
+
+   ```bash
+   git clone https://github.com/hiteshmahto/Whatsapp-Chat-Analyzer.git
+   ```
+
+2. **Navigate to the Project Directory**
+   Change into the project directory:
+
+   ```bash
+   cd whatsapp-chat-analyzer
+   ```
+
+3. **Install Dependencies**
+   Install the necessary Python packages using pip:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Application**
+   To start the Streamlit application, run the following command:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+## 🤝 Contributing
+
+Have suggestions or improvements? Contributions are welcome! Fork the repository, open an issue, or submit a pull request.
 
 ---
 
-## 🎥 Live Demo
+## 🙏 Acknowledgments
 
-🔹 **[Watch the Live Demo](https://your-demo-link.com)**  
-🔹 **Screenshots:**  
-Will be u[dated later
----
+Thank you for exploring the **WhatsApp Chat Analyzer**. I hope this project helps you uncover useful insights from your chats.
 
-## 🛠️ Installation
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/yourusername/whatsapp-chat-analyzer.git
-cd whatsapp-chat-analyzer
-2️⃣ Install Dependencies
-
-pip install -r requirements.txt
-3️⃣ Run the Application
-
-streamlit run app.py
-
-✅ Now, open http://localhost:8501 in your browser!
-
-📂 How to Use?
-1️⃣ Export Your WhatsApp Chat (without media)
-
-Open WhatsApp > Tap on a chat > More > Export Chat > Without Media
-
-Save the .txt file
-
-2️⃣ Upload the Chat File
-
-Click "Upload Your Chat Data" and select the .txt file
-
-3️⃣ Select a User (Optional)
-
-Analyze specific users or view overall stats
-
-4️⃣ Explore Insights!
-
-View stats, message trends, emoji analysis, and word clouds 📊
-
-# 🛠️ Tech Stack
-🚀 Built with:
-
-Python 🐍
-
-Streamlit 🎨 (for UI & interactive visualization)
-
-Matplotlib & Seaborn 📊 (for charts & graphs)
-
-WordCloud ☁️ (for word clouds)
-
-Pandas & NumPy 📑 (for chat preprocessing & data analysis)
-
-🤝 Contributing
-🔹 Want to improve this project? Follow these steps:
-1️⃣ Fork the repository 🍴
-2️⃣ Create a new branch (git checkout -b feature-branch)
-3️⃣ Make your changes & commit (git commit -m "Added feature X")
-4️⃣ Push to the branch (git push origin feature-branch)
-5️⃣ Open a pull request 🚀
-
-All contributions are welcome! 🎉
-
-🔮 Future Enhancements
-🚀 Sentiment Analysis – Detect positive, negative, and neutral conversations
-📅 Hourly Message Trends – Find the busiest chat hours
-🧑‍🤝‍🧑 More User Insights – Compare user stats
-🔍 Advanced Filters – Search messages by keywords
-
-📜 License
-📌 This project is licensed under the MIT License – Feel free to use and modify!
-
-⭐ Support & Feedback
-If you liked this project, give it a star ⭐ and follow for updates!
-💬 Have suggestions or found an issue? Open an issue on GitHub!
-
-📧 Contact: sinhaarpan7549.com
-
-✅ **Simply copy and paste this into your `README.md` file.**   
-✅ It’s professional, visually appealing, and user-friendly.  
-✅ Let me know if you need any modifications! 🚀🔥
+📧 Reach out for feedback or collaboration: **sinhaarpan7549@gmail.com**
